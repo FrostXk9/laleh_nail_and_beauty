@@ -77,23 +77,20 @@
   #navigationBar{
     background-color: white !important;
   }
+  #imgSec
+  {
+    display: none;
+  }
 }
 @media (max-width: 550px) {
   #logo{
     height: 3.5rem;
     width: 8.5rem;
   }
-  #imgSec:nth-child(1),
-  #imgSec:nth-child(3)
+  #imgSec
   {
     display: none;
   }
-  /* #imgSec:nth-child(2)
-  {
-   height: 350px;
-   width: 300px;
-   object-fit: cover;
-  } */
 
   #mainTxt{
     text-align: start !important;
